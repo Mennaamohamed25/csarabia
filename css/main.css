@@ -72,9 +72,9 @@ h1 {
   padding: 0;
   white-space: nowrap;
   line-height: 90%;
-  font-size: 8rem;
+  font-size: 1rem;
   font-family: 'Poppins';
-  font-weight: 600;
+  font-weight: 700;
   text-transform: lowercase;
 }
 
@@ -131,13 +131,13 @@ p {
 }
 @media (max-width: 1440px) {
   h1 {
-    font-size: 7rem;
+    font-size: 4rem;
   }
   h2 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   h5 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 780px) {
@@ -642,7 +642,7 @@ footer .full h1 {
 
 .about_card {
   display: flex;
-  gap: 1.2rem;
+  gap: 1rem;
 }
 .about_card .card {
   width: 100%;
@@ -705,7 +705,7 @@ footer .full h1 {
   }
 }
 .work {
-  padding-bottom: 12rem;
+  padding-bottom: 5rem;
 }
 .work #container .wrapper {
   display: flex;
