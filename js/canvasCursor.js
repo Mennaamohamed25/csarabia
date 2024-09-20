@@ -1039,9 +1039,9 @@ export function initFluid() {
         i = Math.floor(h * 3);
 
         switch (i % 3) {
-            case 0: r = 60, g = 184, b = 275; break;
-            case 1: r = 60, g = 184, b = 211; break;
-            case 2: r = 60, g = 184, b = 275; break;
+            case 0: (r = 255), (g = 0), (b = 0); break;
+            case 1: (r = 255), (g = 0), (b = 0); break;
+            case 2: (r = 255), (g = 0), (b = 0); break;
         }
 
         return {

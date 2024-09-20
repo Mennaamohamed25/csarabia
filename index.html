@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Csarabia</title>
     <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.png"> -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
        <!-- Tailwind CDN -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
@@ -37,7 +41,7 @@
     <div class="cursor"></div>
 
     <!-- Navbar -->
-    <nav>
+    <nav class="">
         <div id="container">
             <a href="index.html">
                         <img class="focus" src="assets/logo.svg" alt="CSarabia" loading="lazy" data-magnetic>
@@ -58,31 +62,29 @@
     <div class="menu">
         <div id="container">
             <div class="left">
-                <a href="about.html" data-text='about'>about</a>
-                <a href="works.html" data-text='work'>work</a>
-                <a href="service.html" data-text='services'>services</a>
-                <a href="team.html" data-text='team'>team</a>
-                <a href="contact.html" data-text='contact'>contact</a>
+                <a href="#" data-text='about'>about</a>
+                <a href="#" data-text='work'>work</a>
+                <a href="#" data-text='services'>services</a>
+                <a href="#" data-text='team'>team</a>
+                <a href="#" data-text='contact'>contact</a>
             </div>
             <div class="right">
                 <a href="mailto:info@innovise.com" class="focus">CSarabia@gmail.com</a>
                 <a href="tel:+011234567890" class="focus">+01 140060747</a>
                 <div class="social_cnt">
-                    <a href="https://www.instagram.com" target="_blank">
+                    <a href="#" target="_blank">
                         <img class="focus" src="assets/instagram.svg" alt="instagram" loading="lazy" data-magnetic>
                     </a>
-                    <a href="https://www.facebook.com" target="_blank">
+                    <a href="#" target="_blank">
                         <img class="focus" src="assets/facebook.svg" alt="facebook" loading="lazy" data-magnetic>
                     </a>
-                    <a href="https://www.linkedin.com" target="_blank">
+                    <a href="#" target="_blank">
                         <img class="focus" src="assets/linkedin.svg" alt="linkedin" loading="lazy" data-magnetic>
                     </a>
-                    <a href="https://dribbble.com" target="_blank">
+                    <a href="#" target="_blank">
                         <img class="focus" src="assets/dribble.svg" alt="dribble" loading="lazy" data-magnetic>
                     </a>
-                    <a href="https://www.behance.net" target="_blank">
-                        <img class="focus" src="assets/behance.svg" alt="behance" loading="lazy" data-magnetic>
-                    </a>
+                 
                 </div>
             </div>
         </div>
@@ -92,7 +94,7 @@
     <!-- Scrollable Content -->
     <div id="main">
         <!-- Hero -->
-        <header class="hero">
+        <header class="hero mt-7">
             <div id="container">
                 <h2 class="focus2">We are the top service provider in the Middle East.</h2>
                 <p class="smallT">
@@ -153,51 +155,20 @@ solutions for the oil and gas industry in the Gulf and Middle East.
 
         <!-- Work -->
 <section class="work">
-    <div id="container" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-        <!-- Column 1 -->
-        <div style="
-            flex: 1 1 calc(33.333% - 20px); 
-            margin: 10px; 
-            box-sizing: border-box;
-            width: 100%;
-            @media (max-width: 768px) { 
-                flex: 1 1 100%;
-                margin: 10px 0;
-            }
-        ">
-            <img src="assets/img.png" alt="Image 1" style="width: 100%; height: auto;">
-            <p style="text-align: center; margin-top: 10px;">Text for Image 1</p>
-        </div>
-
-        <!-- Column 2 -->
-        <div style="
-            flex: 1 1 calc(33.333% - 20px); 
-            margin: 10px; 
-            box-sizing: border-box;
-            width: 100%;
-            @media (max-width: 768px) { 
-                flex: 1 1 100%;
-                margin: 10px 0;
-            }
-        ">
-            <img src="assets/img (1).png" alt="Image 2" style="width: 100%; height: auto;">
-            <p style="text-align: center; margin-top: 10px;">Text for Image 2</p>
-        </div>
-
-        <!-- Column 3 -->
-        <div style="
-            flex: 1 1 calc(33.333% - 20px); 
-            margin: 10px; 
-            box-sizing: border-box;
-            width: 100%;
-            @media (max-width: 768px) { 
-                flex: 1 1 100%;
-                margin: 10px 0;
-            }
-        ">
-            <img src="assets/img (3).png" alt="Image 3" style="width: 100%; height: auto;">
-            <p style="text-align: center; margin-top: 10px;">Text for Image 3</p>
-        </div>
+    <div id="container">
+    <div class="about_card ">
+                    <div class="work" data-scroll data-scroll-speed="1">
+                      <img src="assets/img.png"></img>
+                    </div>
+                    <div class="work" data-scroll data-scroll-speed="2">
+                  <img src="assets/img (1).png"></img>
+                    </div>
+                    <div class="work" data-scroll data-scroll-speed="3">
+                          <img src="assets/img (3).png"></img>
+                    </div>
+               
+                </div>
+   
     </div>
 </section>
 
@@ -346,7 +317,7 @@ solutions for the oil and gas industry in the Gulf and Middle East.
                         <h1 class="fade">have a <br> project?</h1>
                         <h1 class="fill">have a <br> project?</h1>
                     </div>
-                    <a href="contact.html" class="btn focus" data-magnetic>
+                    <a href="#" class="btn focus" data-magnetic>
                         <span>Contact Us</span>
                     </a>
                 </div>
